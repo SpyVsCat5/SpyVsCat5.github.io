@@ -26,8 +26,10 @@ compress_html:
 
 # Links to include in menu navigation
 links:
-  - title: home
+  - title: Accueil
     url: /
+  - title: À propos
+    url: /about
 
 # projects in header index
 projects:
