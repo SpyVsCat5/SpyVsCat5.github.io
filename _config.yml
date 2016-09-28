@@ -30,6 +30,12 @@ links:
     url: /
   - title: À propos
     url: /about
+  - title: Événements
+    url: /events
+  - title: Laboratoire
+    url: /laboratory
+  - title: Ressources
+    url: /resources
 
 # projects in header index
 projects:

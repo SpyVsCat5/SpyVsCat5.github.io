@@ -1,0 +1,15 @@
+.svc-main-highlight {
+  margin-top: 30px;
+}
+
+.svc-main-link {
+  margin: 5px 0px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.svc-main-link:hover {
+  color: orange;
+}
