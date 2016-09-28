@@ -28,14 +28,7 @@ compress_html:
 links:
   - title: home
     url: /
-  - title: my posts
-    url: /posts
-  - title: series
-    url: /series
-  - title: tags
-    url: /tags
-  - title: about me
-    url: /about
+
 # projects in header index
 projects:
   - name: Workshops / Présentations
