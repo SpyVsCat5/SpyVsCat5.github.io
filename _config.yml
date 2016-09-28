@@ -1,17 +1,15 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
-baseurl: "/space-jekyll-template" # the subpath of your site
-url: "http://victorvoid.github.io"
+title: SPY vs CAT5
+description: "Club de hacking de l'université Laval"
+baseurl: "" # the subpath of your site
+url: "https://spyvscat5.github.io"
 
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
-gplus_username:  loremipsum
-disqus_username: loremipsum
+username: SPY vs CAT5
+user_title: SPY vs CAT5
+email: clubhacking@fsg.ulaval.ca
+github_username:  SpyVsCat5
+youtube_username:  UCqHR0icKT20KwFDjaZuFt7w
 
 # Build settings
 markdown: kramdown
@@ -40,11 +38,8 @@ links:
     url: /about
 # projects in header index
 projects:
-  - name: asciilang
-    url: https://github.com/victorvoid/asciilang
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: Workshops / Présentations
+    url: https://github.com/SpyVsCat5/Workshops
+
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

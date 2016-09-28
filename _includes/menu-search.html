@@ -37,7 +37,7 @@
         <li><span class="counter-menu">{{counter}}</span><svg viewBox="0 0 50 50" class="icon-arrow-menu"><use xlink:href="#icon-right-arrow"></use></svg><a href="{{ site.url }}{{ link.url }}"> {{ link.title }}</a></li>
       {% endif %}
 
-      {% assign counter=counter | plus:1 %}   
+      {% assign counter=counter | plus:1 %}
       {% endfor %}
     </ul>
     <ul>
