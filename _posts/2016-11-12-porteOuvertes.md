@@ -1,5 +1,5 @@
 ---
-title:
+title: Portes Ouvertes
 date_fr: Samedi 12 novembre
 time: 10h00 - 15h00
 room: Pavillon Vachon
