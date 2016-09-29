@@ -1,0 +1,42 @@
+---
+layout: minimal
+title: "Prochains événements"
+permalink: /events/index.html
+description: "Liste des événements à venir"
+---
+
+<img itemprop="image" class="img-rounded about_perfil" src="/assets/img/spyvscat5.png" alt="logo">
+
+<h2>Événements</h2>
+
+{% capture is_events %}false{% endcapture %}
+{% capture current_color %}{% endcapture %}
+{% for post in site.posts %}
+  {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+  {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+  {% if posttime >= nowunix %}
+    {% capture is_events %}true{% endcapture%}
+    {% if current_color == '' %}
+     {% capture current_color %}svc-color-light-grey{% endcapture %}
+    {% else %}
+     {% capture current_color %}{% endcapture %}
+    {% endif %}
+
+    <figure class="highlight svc-evenements {{current_color}}">
+    <h3>{{post.title}}</h3>
+    <ul>
+      <li>Date: {{post.date_fr}}</li>
+      <li>Heure: {{post.time}}</li>
+      <li>Locale: {{post.room}}</li>
+    </ul>
+    <hr/>
+    <pre class="svc-evenement-details">{{post.content}}</pre>
+    </figure>
+  {% endif %}
+{% endfor %}
+
+{% if is_events == 'false' %}
+  <figure class="highlight svc-main-highlight">
+    <p class="svc-no-posts">Il y a présentement aucun événement de schédulé.</p>
+  </figure>
+{% endif %}

@@ -15,6 +15,7 @@ youtube_username:  UCqHR0icKT20KwFDjaZuFt7w
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
+future: true
 
 
 # html minify

@@ -13,3 +13,35 @@
 .svc-main-link:hover {
   color: orange;
 }
+
+.svc-evenements li {
+  color: #bbb;
+}
+
+.svc-evenements {
+  margin-bottom: 0;
+}
+
+.svc-evenement-details {
+  margin-top: 0;
+  padding-top: 0;
+}
+.svc-evenement-details p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.svc-no-posts  {
+  color: #fff !important;
+  text-align: center;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.svc-color-light-grey {
+  background-color: #555;
+}
+
+section.post article {
+  padding-bottom: 0;
+}
