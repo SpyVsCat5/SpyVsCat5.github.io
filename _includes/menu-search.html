@@ -29,12 +29,23 @@
   <nav id="navigation">
     <!-- <h2>MENU</h2> -->
     <ul>
-      {% assign counter=1 %}
-      {% for link in site.links %}
+      {% assign counter=0 %}
+      {% for link in site.links | limit: 5 %}
       {% if link.external %}
         <li><a href="{{ link.url }}">{{ link.title }}</a></li>
       {% else %}
-        <li><span class="counter-menu">{{counter}}</span><svg viewBox="0 0 50 50" class="icon-arrow-menu"><use xlink:href="#icon-right-arrow"></use></svg><a href="{{ site.url }}{{ link.url }}"> {{ link.title }}</a></li>
+        <li><span class="counter-menu">{{counter | plus:1}}</span><svg viewBox="0 0 50 50" class="icon-arrow-menu"><use xlink:href="#icon-right-arrow"></use></svg><a href="{{ site.url }}{{ link.url }}"> {{ link.title }}</a></li>
+      {% endif %}
+
+      {% assign counter=counter | plus:1 %}
+      {% endfor %}
+    </ul>
+    <ul>
+      {% for link in site.links | offset: counter %}
+      {% if link.external %}
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {% else %}
+        <li><span class="counter-menu">{{counter | plus: 1}}</span><svg viewBox="0 0 50 50" class="icon-arrow-menu"><use xlink:href="#icon-right-arrow"></use></svg><a href="{{ site.url }}{{ link.url }}"> {{ link.title }}</a></li>
       {% endif %}
 
       {% assign counter=counter | plus:1 %}
