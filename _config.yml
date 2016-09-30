@@ -35,8 +35,8 @@ links:
     url: /events
   - title: Laboratoire
     url: /laboratory
-  - title: Ressources
-    url: /resources
+  - title: Nous joindre
+    url: /contact
 
 # projects in header index
 projects:
