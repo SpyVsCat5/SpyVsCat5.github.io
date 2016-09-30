@@ -13,6 +13,10 @@
   color: orange;
 }
 
+.highlight .svc-highlight-text {
+  color: white;
+}
+
 .svc-evenements li {
   color: #bbb;
 }
@@ -39,6 +43,18 @@
 
 .svc-color-light-grey {
   background-color: #555;
+}
+
+.svc-lab-title {
+  color: white;
+}
+
+.svc-lab-description {
+  list-style: None
+}
+
+.svc-lab-description li {
+  color: white;
 }
 
 section.post article {
