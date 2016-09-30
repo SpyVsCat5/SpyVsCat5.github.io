@@ -31,12 +31,14 @@ links:
     url: /
   - title: À propos
     url: /about
-  - title: Événements
-    url: /events
   - title: Laboratoire
     url: /laboratory
   - title: Nous joindre
     url: /contact
+  - title: Premiers pas
+    url: /starterkit
+  - title: Événements
+    url: /events
 
 # projects in header index
 projects:
