@@ -60,3 +60,7 @@
 <a id="search" class="dosearch">
     <svg class="icon-menu icon-search"><use xlink:href="#icon-search"></use></svg>
 </a>
+<a id="svc-schedule" class="">
+  {% assign day=(site.time | date: '%a') %}
+  Heures d'ouverture aujourd'hui : {{site.schedule[day]}}
+</a>

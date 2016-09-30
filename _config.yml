@@ -45,5 +45,14 @@ projects:
   - name: Workshops / Présentations
     url: https://github.com/SpyVsCat5/Workshops
 
+schedule:
+  Sun: Fermé
+  Mon: 10h - 19h
+  Tue: 10h - 20h
+  Wed: Fermé
+  Thu: 10h - 19h
+  Fri: 13h - 19h
+  Sat: 15h - 21h
+
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

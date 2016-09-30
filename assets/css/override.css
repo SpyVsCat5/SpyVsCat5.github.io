@@ -57,6 +57,13 @@
   color: white;
 }
 
+#svc-schedule {
+  position: absolute;
+  display: block;
+  top: 25px;
+  right: 80px;
+  color: white;
+}
 section.post article {
   padding-bottom: 0;
 }
