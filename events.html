@@ -10,7 +10,7 @@ permalink: /events/index.html
 
 {% capture is_events %}false{% endcapture %}
 {% capture current_color %}{% endcapture %}
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
   {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
   {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
   {% if posttime >= nowunix %}

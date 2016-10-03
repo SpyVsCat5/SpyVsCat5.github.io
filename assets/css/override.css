@@ -45,6 +45,10 @@
   background-color: #555;
 }
 
+.svc-color-light-grey .svc-evenement-details a:link {
+  color: white;
+}
+
 .svc-lab-title {
   color: white;
 }
