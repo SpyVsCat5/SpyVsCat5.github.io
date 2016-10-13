@@ -80,3 +80,7 @@ section.post article {
 .svc-header-title:visited {
   color: white;
 }
+
+footer {
+  margin-top: 0px;
+}
