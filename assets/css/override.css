@@ -84,3 +84,9 @@ section.post article {
 footer {
   margin-top: 0px;
 }
+
+@media only screen and (max-width:1024px) {
+  #svc-schedule {
+    display: none;
+  }
+}
