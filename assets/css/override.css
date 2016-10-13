@@ -71,3 +71,12 @@
 section.post article {
   padding-bottom: 0;
 }
+
+.svc-header-title {
+  color: white;
+  text-decoration: none;
+}
+
+.svc-header-title:visited {
+  color: white;
+}
