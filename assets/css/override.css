@@ -90,3 +90,13 @@ footer {
     display: none;
   }
 }
+
+.svc-main-footer {
+  background-color: #2F2F33;
+}
+
+.svc-main-footer a {
+  background-color: #2F2F33;
+  color: white;
+  text-decoration: None;
+}
