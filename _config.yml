@@ -44,7 +44,7 @@ links:
 projects:
   - name: Workshops / Présentations
     url: https://github.com/SpyVsCat5/Workshops
-  - name: Code Source du Siteweb
+  - name: Code source du siteweb
     url: https://github.com/SpyVsCat5/SpyVsCat5.github.io
 
 # exclude my node related stuff
