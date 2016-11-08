@@ -44,6 +44,8 @@ links:
 projects:
   - name: Workshops / Présentations
     url: https://github.com/SpyVsCat5/Workshops
+  - name: Outils de CTF
+    url: https://github.com/SpyVsCat5/Outils-CTF
   - name: Code source du siteweb
     url: https://github.com/SpyVsCat5/SpyVsCat5.github.io
 
