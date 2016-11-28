@@ -207,8 +207,8 @@ height:18px;
 }
 @media only screen and (min-width:37.5rem){
 .icons-home a .icon{
-width:30px;
-height:30px
+width:35px;
+height:33px
 }
 
 }
@@ -1543,4 +1543,8 @@ font-style:normal;
 color:#fff;
 text-align:center;
 margin:0
+}
+
+.center{
+	text-align: center;
 }
