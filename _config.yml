@@ -46,8 +46,8 @@ projects:
     url: https://github.com/SpyVsCat5/Workshops
   - name: Outils de CTF
     url: https://github.com/SpyVsCat5/Outils-CTF
-  - name: Code source du siteweb
-    url: https://github.com/SpyVsCat5/SpyVsCat5.github.io
+  - name: Liste de livres
+    url: https://github.com/SpyVsCat5/Book-List
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
