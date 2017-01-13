@@ -1,11 +1,11 @@
 function getSchedule() {
     return ["Fermé",
-            "10h - 19h",
+            "10h - 18h",
             "10h - 20h",
-            "Fermé",
+            "13h - 18h",
             "10h - 19h",
-            "13h - 19h",
-            "15h - 21h"];
+            "10h - 19h30",
+            "13h - 21h"];
 }
 
 function getOpeningHours() {
