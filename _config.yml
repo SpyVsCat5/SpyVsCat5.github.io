@@ -2,7 +2,8 @@
 title: SPY vs CAT5
 description: "Club de hacking de l'université Laval"
 baseurl: "" # the subpath of your site
-url: "https://spyvscat5.github.io"
+url: "http://hacking.fsg.ulaval.ca/" 
+#url: https://spyvscat5.github.io
 
 # User settings
 username: SPY vs CAT5
