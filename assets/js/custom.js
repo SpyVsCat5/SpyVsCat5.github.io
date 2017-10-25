@@ -1,6 +1,6 @@
 function getSchedule() {
     return ["Fermé",
-            "15h - 18h",
+            "14h - 20h",
             "Fermé",
             "Fermé",
             "Fermé",
