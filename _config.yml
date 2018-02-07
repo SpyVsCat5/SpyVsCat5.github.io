@@ -9,7 +9,7 @@ url: "http://hacking.fsg.ulaval.ca/"
 username: SPY vs CAT5
 user_title: SPY vs CAT5
 email: clubhacking@fsg.ulaval.ca
-github_username:  SpyVsCat5
+github_username:  SPYvsCAT5-UL
 youtube_username:  UCqHR0icKT20KwFDjaZuFt7
 
 # Build settings
@@ -44,7 +44,7 @@ links:
 # projects in header index
 projects:
   - name: Workshops / Présentations
-    url: https://github.com/SpyVsCat5/Workshops
+    url: https://github.com/SPYvsCAT5-UL/Presentations
   - name: Outils de CTF
     url: https://github.com/SpyVsCat5/Outils-CTF
   - name: Liste de livres
